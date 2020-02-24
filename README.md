@@ -1,2 +1,1 @@
-# android_device_samsung_beyond0lte
-Samsung S10e Repository for LineageOS
+# LineageOS device tree for the Samusung Galaxy S10e
