@@ -1,5 +1,5 @@
 ### PLATFORM
-$(call inherit-product, device/samsung/universal9820-common/platform.mk)
+$(call inherit-product, device/samsung/exynos9820-common/platform.mk)
 ### PROPRIETARY VENDOR FILES
 $(call inherit-product, vendor/samsung/beyond0lte/beyond0lte-vendor.mk)
 
