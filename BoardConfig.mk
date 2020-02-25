@@ -14,20 +14,15 @@
 # limitations under the License.
 
 ### INHERIT FROM YOSHIRO
-include device/sony/yoshino/BoardConfigPlatform.mk
-include vendor/sony/lilac/BoardConfigVendor.mk
+include device/samsung/exynos9820-common/BoardConfigPlatform.mk
+include vendor/samsung/beyond0lte/BoardConfigVendor.mk
 
-DEVICE_PATH := device/sony/lilac
+DEVICE_PATH := device/samsung/beyond0lte
 
-PRODUCT_PLATFORM := yoshino
-
-### BOOTLOADER
-TARGET_BOOTLOADER_BOARD_NAME := G8441
+PRODUCT_PLATFORM := exynos9820
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-lilac_defconfig
-
-BOARD_KERNEL_CMDLINE += androidboot.hardware=lilac
+TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
 
 ### PARTITIONS
 # See also /proc/partitions on the device
