@@ -32,17 +32,14 @@ vendor/tee/driver/00000000-0000-0000-0000-53626f786476:recovery/root/vendor/tee/
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/tui/resolution_common/ID00000100:recovery/root/vendor/tee/tui/resolution_common/ID00000100
 
-# RECOVERY_TZDAEMON
-vendor/lib64/libteecl.so:recovery/root/vendor/lib64/libteecl.so
+# RECOVERY_TEEGRIS
 vendor/bin/tzdaemon:recovery/root/sbin/tzdaemon
-
-# RECOVERY_TZTS_DAEMON
-vendor/lib64/libiwt.so:recovery/root/vendor/lib64/libiwt.so
 vendor/bin/tzts_daemon:recovery/root/sbin/tzts_daemon
-
-# RECOVERY_VAULTKEEPER
-#vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so:recovery/root/vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so
-#vendor/bin/vaultkeeperd:recovery/root/sbin/vaultkeeperd
+vendor/lib64/libiwt.so:recovery/root/vendor/lib64/libiwt.so
+vendor/lib64/libteecl.so:recovery/root/vendor/lib64/libteecl.so
 
 # RECOVERY_GATEKEEPER
 vendor/lib64/hw/gatekeeper.exynos9820.so:recovery/root/vendor/lib64/hw/gatekeeper.exynos9820.so
+
+# RECOVERY_KEYMASTER
+vendor/lib64/libskeymaster4device.so:recovery/root/vendor/lib64/libskeymaster4device.so
