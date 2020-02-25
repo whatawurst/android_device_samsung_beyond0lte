@@ -1,0 +1,48 @@
+# RECOVERY
+
+# RECOVERY_TOUCHSCREEN_FIRMWARE
+
+# RECOVERY_TEE_FIRMWARE
+vendor/tee/00000000-0000-0000-0000-000000000046:recovery/root/vendor/tee/00000000-0000-0000-0000-000000000046
+vendor/tee/00000000-0000-0000-0000-00000000dead:recovery/root/vendor/tee/00000000-0000-0000-0000-00000000dead
+vendor/tee/00000000-0000-0000-0000-000000010081:recovery/root/vendor/tee/00000000-0000-0000-0000-000000010081
+vendor/tee/00000000-0000-0000-0000-000000020081:recovery/root/vendor/tee/00000000-0000-0000-0000-000000020081
+vendor/tee/00000000-0000-0000-0000-000000534b4d:recovery/root/vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-000046495645:recovery/root/vendor/tee/00000000-0000-0000-0000-000046495645
+vendor/tee/00000000-0000-0000-0000-0050524f4341:recovery/root/vendor/tee/00000000-0000-0000-0000-0050524f4341
+vendor/tee/00000000-0000-0000-0000-00535453540c:recovery/root/vendor/tee/00000000-0000-0000-0000-00535453540c
+vendor/tee/00000000-0000-0000-0000-0053545354ab:recovery/root/vendor/tee/00000000-0000-0000-0000-0053545354ab
+vendor/tee/00000000-0000-0000-0000-00575644524d:recovery/root/vendor/tee/00000000-0000-0000-0000-00575644524d
+vendor/tee/00000000-0000-0000-0000-446e6c6f6164:recovery/root/vendor/tee/00000000-0000-0000-0000-446e6c6f6164
+vendor/tee/00000000-0000-0000-0000-46494e474552:recovery/root/vendor/tee/00000000-0000-0000-0000-46494e474552
+vendor/tee/00000000-0000-0000-0000-474154454b45:recovery/root/vendor/tee/00000000-0000-0000-0000-474154454b45
+vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor:recovery/root/vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor
+vendor/tee/00000000-0000-0000-0000-505256544545:recovery/root/vendor/tee/00000000-0000-0000-0000-505256544545
+vendor/tee/00000000-0000-0000-0000-535355504341:recovery/root/vendor/tee/00000000-0000-0000-0000-535355504341
+vendor/tee/00000000-0000-0000-0000-5354494d4552:recovery/root/vendor/tee/00000000-0000-0000-0000-5354494d4552
+vendor/tee/00000000-0000-0000-0000-564c544b5052:recovery/root/vendor/tee/00000000-0000-0000-0000-564c544b5052
+vendor/tee/00000000-0000-0000-0000-64756c444152:recovery/root/vendor/tee/00000000-0000-0000-0000-64756c444152
+vendor/tee/00000000-0000-0000-0000-657365447276:recovery/root/vendor/tee/00000000-0000-0000-0000-657365447276
+vendor/tee/00000000-0000-0000-0000-657365636f6d:recovery/root/vendor/tee/00000000-0000-0000-0000-657365636f6d
+vendor/tee/00000000-0000-0000-0000-6d73745f5441:recovery/root/vendor/tee/00000000-0000-0000-0000-6d73745f5441
+vendor/tee/ffffffff-0000-0000-0000-000000000030:recovery/root/vendor/tee/ffffffff-0000-0000-0000-000000000030
+vendor/tee/driver/00000000-0000-0000-0000-00535453540b:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-00535453540b
+vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
+vendor/tee/driver/00000000-0000-0000-0000-53626f786476:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-53626f786476
+vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
+vendor/tee/tui/resolution_common/ID00000100:recovery/root/vendor/tee/tui/resolution_common/ID00000100
+
+# RECOVERY_TZDAEMON
+vendor/lib64/libteecl.so:recovery/root/vendor/lib64/libteecl.so
+vendor/bin/tzdaemon:recovery/root/sbin/tzdaemon
+
+# RECOVERY_TZTS_DAEMON
+vendor/lib64/libiwt.so:recovery/root/vendor/lib64/libiwt.so
+vendor/bin/tzts_daemon:recovery/root/sbin/tzts_daemon
+
+# RECOVERY_VAULTKEEPER
+#vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so:recovery/root/vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so
+#vendor/bin/vaultkeeperd:recovery/root/sbin/vaultkeeperd
+
+# RECOVERY_GATEKEEPER
+vendor/lib64/hw/gatekeeper.exynos9820.so:recovery/root/vendor/lib64/hw/gatekeeper.exynos9820.so
