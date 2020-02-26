@@ -43,3 +43,4 @@ vendor/lib64/hw/gatekeeper.exynos9820.so:recovery/root/vendor/lib64/hw/gatekeepe
 
 # RECOVERY_KEYMASTER
 vendor/lib64/libskeymaster4device.so:recovery/root/vendor/lib64/libskeymaster4device.so
+vendor/lib64/libkeymaster_helper_vendor.so:recovery/root/vendor/lib64/libkeymaster_helper_vendor.so
