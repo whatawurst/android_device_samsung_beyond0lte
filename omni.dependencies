@@ -1,0 +1,26 @@
+[
+  {
+    "remote":       "github",
+    "repository":   "LineageOS/android_hardware_samsung",
+    "target_path":  "hardware/samsung",
+    "revision":     "lineage-16.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "whatawurst/android_kernel_samsung_exynos9820",
+    "target_path":  "kernel/samsung/exynos9820",
+    "revision":     "twrp-9.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "whatawurst/android_device_samsung_exynos9820-common",
+    "target_path":  "device/samsung/exynos9820-common",
+    "revision":     "twrp-9.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "whatawurst/android_vendor_samsung_beyond0lte",
+    "target_path":  "vendor/samsung/beyond0lte",
+    "revision":     "twrp-9.0"
+  }
+]
