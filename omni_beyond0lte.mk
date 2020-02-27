@@ -5,21 +5,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/beyond0lte/device.mk)
 
-# Product API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
-
 ### BOOTANIMATION
-# vendor/lineage/config/common_full_phone.mk
+# vendor/omni/config/common_full_phone.mk
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
-# vendor/lineage/config/common.mk
+# vendor/omni/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
-### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+### OMNI
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_beyond0lte
+PRODUCT_NAME := omni_beyond0lte
 PRODUCT_DEVICE := beyond0lte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-G970F
@@ -31,10 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := samsung/beyond0ltexx/beyond0:10/QP1A.190711.020/G970FXXU4BTA8:user/release-keys
 
-ifneq ($(LINEAGE_DEV_CERTIFICATE),)
-    PRODUCT_DEFAULT_DEV_CERTIFICATE := $(LINEAGE_DEV_CERTIFICATE)
-endif
-
-ifneq ($(LINEAGE_VERITY_CERTIFICATE),)
-    PRODUCT_VERITY_SIGNING_KEY := $(LINEAGE_VERITY_CERTIFICATE)
+ifneq ($(OMNI_DEV_CERTIFICATE),)
+    PRODUCT_DEFAULT_DEV_CERTIFICATE := $(OMNI_DEV_CERTIFICATE)
 endif
