@@ -1,0 +1,2 @@
+# KEYMASTER
+-vendor/lib64/libskeymaster4device.so
