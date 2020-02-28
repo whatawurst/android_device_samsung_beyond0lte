@@ -1,6 +1,4 @@
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/beyond0lte/device.mk)
@@ -14,7 +12,6 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ### OMNI
 $(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_beyond0lte
