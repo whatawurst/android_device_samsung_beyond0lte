@@ -58,6 +58,95 @@ vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100
 
+### SAMSUNG_SLSI_CONFIGSTORE
+vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service
+vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc
+vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
+
+### SAMSUNG_SLSI_EDEN_RUNTIME
+vendor/bin/hw/android.hardware.neuralnetworks@1.2-service.eden-drv
+vendor/bin/hw/vendor.samsung_slsi.hardware.eden_runtime@1.0-service
+vendor/eden/gpu/eden_kernel_32.bin
+vendor/eden/gpu/eden_kernel_64.bin
+vendor/etc/init/android.hardware.neuralnetworks@1.2-service.eden-drv.rc
+vendor/etc/init/vendor.samsung_slsi.hardware.eden_runtime@1.0-service.rc
+vendor/lib/libeden_model.so
+vendor/lib/libeden_nn.so
+vendor/lib/libeden_nn_on_vendor.so
+vendor/lib/libeden_osal.so
+vendor/lib/libeden_profiler.so
+vendor/lib/libeden_rt.so
+vendor/lib/libeden_rt_stub_vendor.edensdk.samsung.so
+vendor/lib/libeden_ud_cpu.so
+vendor/lib/libeden_ud_gpu.so
+vendor/lib/libeden_ud_npu.so
+vendor/lib/libeden_wrapper.so
+vendor/lib/libeden_xtool.so
+vendor/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so
+vendor/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
+vendor/lib64/libeden_model.so
+vendor/lib64/libeden_nn.so
+vendor/lib64/libeden_nn_on_vendor.so
+vendor/lib64/libeden_osal.so
+vendor/lib64/libeden_profiler.so
+vendor/lib64/libeden_rt.so
+vendor/lib64/libeden_rt_stub_vendor.edensdk.samsung.so
+vendor/lib64/libeden_ud_cpu.so
+vendor/lib64/libeden_ud_gpu.so
+vendor/lib64/libeden_ud_npu.so
+vendor/lib64/libeden_wrapper.so
+vendor/lib64/libeden_xtool.so
+vendor/lib64/libnpuc_api.so.0.52
+vendor/lib64/libnpuc_backend.so.0.52
+vendor/lib64/libnpuc_cmdq.so.0.52
+vendor/lib64/libnpuc_common.so.0.52
+vendor/lib64/libnpuc_controller.so.0.52
+vendor/lib64/libnpuc_frontend.so.0.52
+vendor/lib64/libnpuc_graph.so.0.52
+vendor/lib64/libnpuc_template.so.0.52
+vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so
+vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
+
+### SAMSUNG_SLSI_EPIC
+vendor/bin/hw/vendor.samsung_slsi.hardware.epic@1.0-service
+vendor/etc/init/vendor.samsung_slsi.hardware.epic@1.0-service.rc
+vendor/lib/hw/vendor.samsung_slsi.hardware.epic@1.0-impl.so
+vendor/lib/vendor.samsung_slsi.hardware.epic@1.0.so
+vendor/lib64/hw/vendor.samsung_slsi.hardware.epic@1.0-impl.so
+vendor/lib64/vendor.samsung_slsi.hardware.epic@1.0.so
+
+### SAMSUNG_SLSI_IVA
+vendor/bin/hw/vendor.samsung_slsi.hardware.iva@1.0-service
+vendor/etc/init/vendor.samsung_slsi.hardware.iva@1.0-service.rc
+vendor/lib/vendor.samsung_slsi.hardware.iva@1.0.so
+
+### SAMSUNG_SLSI_MULTI_FRAME_PROCESSING
+vendor/bin/hw/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0-service
+vendor/etc/init/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0-service.rc
+vendor/lib64/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
+
+### SAMSUNG_SLSI_HWC
+vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
+vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
+vendor/lib/libExynosHWCService.so
+vendor/lib/libGrallocWrapper.so
+vendor/lib/libexynosdisplay.so
+vendor/lib/libexynosgscaler.so
+vendor/lib/libexynosscaler.so
+vendor/lib/libexynosutils.so
+vendor/lib/libexynosv4l2.so
+vendor/lib64/libExynosHWCService.so
+vendor/lib64/libGrallocWrapper.so
+vendor/lib64/libacryl.so
+vendor/lib64/libacryl_plugin_mcd_cm.exynos9820.so
+vendor/lib64/libexynosdisplay.so
+vendor/lib64/libexynosgscaler.so
+vendor/lib64/libexynosscaler.so
+vendor/lib64/libexynosutils.so
+vendor/lib64/libexynosv4l2.so
+vendor/lib64/libmpp.so
+vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+
 ### SENSORS
 vendor/etc/sensors/hals.conf
 vendor/lib/sensors.bio.so
