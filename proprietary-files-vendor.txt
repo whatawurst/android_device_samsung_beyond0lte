@@ -2,6 +2,18 @@
 vendor/lib/hw/gatekeeper.exynos9820.so
 vendor/lib64/hw/gatekeeper.exynos9820.so
 
+# GRAPICS_MALI
+vendor/bin/bcc_mali
+vendor/etc/mali_formatter.bin
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/libion_exynos.so
+vendor/lib/libmalicore.bc
+vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/libLLVM_android_mali.so
+vendor/lib64/libbcc_mali.so
+vendor/lib64/libion_exynos.so
+vendor/lib64/libmalicore.bc
+
 # KEYMASTER
 -vendor/lib64/libskeymaster4device.so
 vendor/lib64/libkeymaster_helper_vendor.so
