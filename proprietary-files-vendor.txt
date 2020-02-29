@@ -55,3 +55,13 @@ vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100
+
+### SENSORS
+vendor/etc/sensors/hals.conf
+vendor/lib/sensors.bio.so
+vendor/lib/sensors.grip.so
+vendor/lib/sensors.sensorhub.so
+vendor/lib64/libflicker.so
+vendor/lib64/sensors.bio.so
+vendor/lib64/sensors.grip.so
+vendor/lib64/sensors.sensorhub.so
