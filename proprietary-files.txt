@@ -1,0 +1,21 @@
+### SAMSUNG_SLSI_CONFIGSTORE
+system/lib/vendor.samsung_slsi.hardware.configstore-utils.so
+system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.configstore-utils.so
+system/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
+
+### SAMSUNG_SLSI_EDEN_RUNTIME
+system/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
+
+### SAMSUNG_SLSI_HWC
+system/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+
+### SAMSUNG_SLSI_IVA
+system/lib/vendor.samsung_slsi.hardware.iva@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.iva@1.0.so
+
+### SAMSUNG_SLSI_MULTI_FRAME_PROCESSING
+system/lib/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
