@@ -59,13 +59,15 @@ setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
 extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 extract "$MY_DIR"/proprietary-files-vendor.txt "$SRC" "$SECTION"
-#extract "$MY_DIR"/proprietary-files-rootfs.txt "$SRC" "$SECTION"
-extract "$MY_DIR"/proprietary-files-twrp.txt "$SRC" "$SECTION"
 
-TWRP_TZDAEMON="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/recovery/root/sbin/tzdaemon
-TWRP_TZTS_DAEMON="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/recovery/root/sbin/tzts_daemon
+if [ "x$WITH_TWRP" = "xtrue" ]; then
+    extract "$MY_DIR"/proprietary-files-twrp.txt "$SRC" "$SECTION"
 
-sed -i "s|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g" "$TWRP_TZDAEMON"
-sed -i "s|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g" "$TWRP_TZTS_DAEMON"
+    TWRP_TZDAEMON="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/recovery/root/sbin/tzdaemon
+    TWRP_TZTS_DAEMON="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/recovery/root/sbin/tzts_daemon
+
+    sed -i "s|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g" "$TWRP_TZDAEMON"
+    sed -i "s|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g" "$TWRP_TZTS_DAEMON"
+fi
 
 "$MY_DIR"/setup-makefiles.sh
