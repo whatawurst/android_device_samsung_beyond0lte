@@ -1,7 +1,7 @@
 [
   {
-    "repository":  "LineageOS/android_hardware_samsung",
-    "target_path": "hardware/samsung"
+    "repository":  "whatawurst/android_device_samsung_exynos9820-common",
+    "target_path": "device/samsung/exynos9820-common"
   },
   {
     "repository":  "whatawurst/android_kernel_samsung_exynos9820",
