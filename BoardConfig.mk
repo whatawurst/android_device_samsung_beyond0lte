@@ -25,7 +25,7 @@ PRODUCT_PLATFORM := exynos9820
 TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
 
 ### PARTITIONS
-# See /proc/partitions on the device (block size = 1024)
+# /proc/partitions shows the size in 1024-byte blocks
 BOARD_BOOTIMAGE_PARTITION_SIZE := 57671680 # 56 MB
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608 # 8 MB
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67633152 # 66 MB
@@ -37,7 +37,8 @@ BOARD_PRODUCTIMAGE_PARTITION_SIZE := 650117120 # 634 MB
 # Reserve space for data encryption (119126622208 - 20480)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 119126601728
 
-BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
+# blockdev --getbsz /dev/block/sda
+BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Workaround: Use the dtbo we built
 BOARD_PREBUILT_DTBOIMAGE     := $(DEVICE_PATH)/prebuilts/recovery_dtbo
