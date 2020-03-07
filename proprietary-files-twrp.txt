@@ -1,8 +1,19 @@
-# RECOVERY
+# RECOVERY_GATEKEEPER
+vendor/lib64/hw/gatekeeper.exynos9820.so:recovery/root/vendor/lib64/hw/gatekeeper.exynos9820.so
 
-# RECOVERY_TOUCHSCREEN_FIRMWARE
+# RECOVERY_KEYMASTER
+vendor/lib64/libskeymaster4device.so:recovery/root/sbin/libskeymaster4device.so
+vendor/lib64/libkeymaster_helper_vendor.so:recovery/root/sbin/libkeymaster_helper_vendor.so
+# FIXME: Remove me with Android 10.0
+vendor/lib64/vndk/libcrypto.so:recovery/root/sbin/libcrypto.so
 
-# RECOVERY_TEE_FIRMWARE
+# RECOVERY_TEEGRIS
+vendor/bin/tzdaemon:recovery/root/vendor/bin/tzdaemon
+vendor/bin/tzts_daemon:recovery/root/vendor/bin/tzts_daemon
+vendor/lib64/libiwt.so:recovery/root/sbin/libiwt.so
+vendor/lib64/libteecl.so:recovery/root/sbin/libteecl.so
+
+# RECOVERY_TEEGRIS_FIRMWARE
 vendor/tee/00000000-0000-0000-0000-000000000046:recovery/root/vendor/tee/00000000-0000-0000-0000-000000000046
 vendor/tee/00000000-0000-0000-0000-00000000dead:recovery/root/vendor/tee/00000000-0000-0000-0000-00000000dead
 vendor/tee/00000000-0000-0000-0000-000000010081:recovery/root/vendor/tee/00000000-0000-0000-0000-000000010081
@@ -16,7 +27,6 @@ vendor/tee/00000000-0000-0000-0000-00575644524d:recovery/root/vendor/tee/0000000
 vendor/tee/00000000-0000-0000-0000-446e6c6f6164:recovery/root/vendor/tee/00000000-0000-0000-0000-446e6c6f6164
 vendor/tee/00000000-0000-0000-0000-46494e474552:recovery/root/vendor/tee/00000000-0000-0000-0000-46494e474552
 vendor/tee/00000000-0000-0000-0000-474154454b45:recovery/root/vendor/tee/00000000-0000-0000-0000-474154454b45
-vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor:recovery/root/vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor
 vendor/tee/00000000-0000-0000-0000-505256544545:recovery/root/vendor/tee/00000000-0000-0000-0000-505256544545
 vendor/tee/00000000-0000-0000-0000-535355504341:recovery/root/vendor/tee/00000000-0000-0000-0000-535355504341
 vendor/tee/00000000-0000-0000-0000-5354494d4552:recovery/root/vendor/tee/00000000-0000-0000-0000-5354494d4552
@@ -25,22 +35,15 @@ vendor/tee/00000000-0000-0000-0000-64756c444152:recovery/root/vendor/tee/0000000
 vendor/tee/00000000-0000-0000-0000-657365447276:recovery/root/vendor/tee/00000000-0000-0000-0000-657365447276
 vendor/tee/00000000-0000-0000-0000-657365636f6d:recovery/root/vendor/tee/00000000-0000-0000-0000-657365636f6d
 vendor/tee/00000000-0000-0000-0000-6d73745f5441:recovery/root/vendor/tee/00000000-0000-0000-0000-6d73745f5441
-vendor/tee/ffffffff-0000-0000-0000-000000000030:recovery/root/vendor/tee/ffffffff-0000-0000-0000-000000000030
+vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor:recovery/root/vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor
+
 vendor/tee/driver/00000000-0000-0000-0000-00535453540b:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-00535453540b
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
+
+vendor/tee/ffffffff-0000-0000-0000-000000000030:recovery/root/vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100:recovery/root/vendor/tee/tui/resolution_common/ID00000100
 
-# RECOVERY_TEEGRIS
-vendor/bin/tzdaemon:recovery/root/sbin/tzdaemon
-vendor/bin/tzts_daemon:recovery/root/sbin/tzts_daemon
-vendor/lib64/libiwt.so:recovery/root/vendor/lib64/libiwt.so
-vendor/lib64/libteecl.so:recovery/root/vendor/lib64/libteecl.so
-
-# RECOVERY_GATEKEEPER
-vendor/lib64/hw/gatekeeper.exynos9820.so:recovery/root/vendor/lib64/hw/gatekeeper.exynos9820.so
-
-# RECOVERY_KEYMASTER
-vendor/lib64/libskeymaster4device.so:recovery/root/vendor/lib64/libskeymaster4device.so
-vendor/lib64/libkeymaster_helper_vendor.so:recovery/root/vendor/lib64/libkeymaster_helper_vendor.so
+# Trusted storage driver from startup.tzar
+#recovery/root/vendor/tee/driver/00000005-0005-0005-0505-050505050505|33af5a83014af535a7e89075e4dc439fe991d161
