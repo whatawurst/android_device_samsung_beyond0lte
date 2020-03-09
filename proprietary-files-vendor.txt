@@ -12,6 +12,10 @@ vendor/lib64/libLLVM_android_mali.so
 vendor/lib64/libbcc_mali.so
 vendor/lib64/libmalicore.bc
 
+# INIT_EXYNOS
+vendor/etc/init/init.exynos9820.rc
+vendor/etc/init/init.exynos9820.usb.rc
+
 # ION
 vendor/lib/libion_exynos.so
 vendor/lib64/libion_exynos.so
