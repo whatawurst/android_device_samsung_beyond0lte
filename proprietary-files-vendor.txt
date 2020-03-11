@@ -24,9 +24,11 @@ vendor/lib64/libkeymaster_helper_vendor.so
 vendor/bin/tzdaemon
 vendor/bin/tzts_daemon
 vendor/etc/init/teegris_v3.rc
+vendor/lib/libuuid.so
 vendor/lib/libteecl.so
 vendor/lib64/libiwt.so
 vendor/lib64/libteecl.so
+vendor/lib64/libuuid.so
 
 # TEEGRIS_FIRMWARE
 vendor/tee/00000000-0000-0000-0000-000000000046
