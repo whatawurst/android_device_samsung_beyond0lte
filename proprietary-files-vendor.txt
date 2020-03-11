@@ -65,12 +65,14 @@ vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc
 vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
 
-### SAMSUNG_SLSI_EDEN_RUNTIME
+### SAMSUNG_SLSI_EDEN_NEURALNETWORKS
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service.eden-drv
+vendor/etc/init/android.hardware.neuralnetworks@1.2-service.eden-drv.rc
+
+### SAMSUNG_SLSI_EDEN_RUNTIME
 vendor/bin/hw/vendor.samsung_slsi.hardware.eden_runtime@1.0-service
 vendor/eden/gpu/eden_kernel_32.bin
 vendor/eden/gpu/eden_kernel_64.bin
-vendor/etc/init/android.hardware.neuralnetworks@1.2-service.eden-drv.rc
 vendor/etc/init/vendor.samsung_slsi.hardware.eden_runtime@1.0-service.rc
 vendor/lib/libeden_model.so
 vendor/lib/libeden_nn.so
@@ -120,7 +122,9 @@ vendor/lib64/vendor.samsung_slsi.hardware.epic@1.0.so
 ### SAMSUNG_SLSI_IVA
 vendor/bin/hw/vendor.samsung_slsi.hardware.iva@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.iva@1.0-service.rc
+vendor/lib/libhifistill.so
 vendor/lib/vendor.samsung_slsi.hardware.iva@1.0.so
+vendor/lib64/libhifistill.so
 
 ### SAMSUNG_SLSI_MULTI_FRAME_PROCESSING
 vendor/bin/hw/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0-service
@@ -148,6 +152,8 @@ vendor/lib64/libexynosutils.so
 vendor/lib64/libexynosv4l2.so
 vendor/lib64/libmpp.so
 vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+vendor/lib/libhdr10p_m2l.exynos9820.so
+vendor/lib64/libhdr10p_m2l.exynos9820.so
 
 ### SENSORS
 vendor/etc/sensors/hals.conf
