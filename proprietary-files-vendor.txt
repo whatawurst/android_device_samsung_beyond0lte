@@ -187,6 +187,7 @@ vendor/lib64/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
 ### SAMSUNG_SLSI_HWC
 vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
+vendor/lib64/hw/hwcomposer.exynos9820.so
 vendor/lib/libExynosHWCService.so
 vendor/lib/libGrallocWrapper.so
 vendor/lib/libexynosdisplay.so
@@ -194,6 +195,7 @@ vendor/lib/libexynosgscaler.so
 vendor/lib/libexynosscaler.so
 vendor/lib/libexynosutils.so
 vendor/lib/libexynosv4l2.so
+vendor/lib/hw/hwcomposer.exynos9820.so
 vendor/lib64/libExynosHWCService.so
 vendor/lib64/libGrallocWrapper.so
 vendor/lib64/libacryl.so
