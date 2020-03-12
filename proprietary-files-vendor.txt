@@ -214,6 +214,10 @@ vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 vendor/lib/libhdr10p_m2l.exynos9820.so
 vendor/lib64/libhdr10p_m2l.exynos9820.so
 
+### SAMSUNG_SLSI_MEMTRACK
+vendor/lib64/hw/memtrack.exynos9820.so
+vendor/lib/hw/memtrack.exynos9820.so
+
 ### SENSORS
 vendor/etc/sensors/hals.conf
 vendor/lib/sensors.bio.so
