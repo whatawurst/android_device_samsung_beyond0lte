@@ -167,8 +167,17 @@ vendor/lib64/vendor.samsung_slsi.hardware.epic@1.0.so
 vendor/bin/hw/vendor.samsung_slsi.hardware.iva@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.iva@1.0-service.rc
 vendor/lib/libhifistill.so
+vendor/lib/libiva_android_hal.so
+vendor/lib/libopenvx.so
+vendor/lib/libvxu.so
 vendor/lib/vendor.samsung_slsi.hardware.iva@1.0.so
 vendor/lib64/libhifistill.so
+vendor/lib64/libiva_android_hal.so
+vendor/lib64/libopenvx.so
+vendor/lib64/libvxu.so
+
+### SAMSUNG_SLSI_IVA_FIRMWARE
+vendor/firmware/iva30_rt-makalu.bin
 
 ### SAMSUNG_SLSI_MULTI_FRAME_PROCESSING
 vendor/bin/hw/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0-service
