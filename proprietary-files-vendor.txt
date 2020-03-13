@@ -46,6 +46,10 @@ vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 vendor/lib/hw/gatekeeper.exynos9820.so
 vendor/lib64/hw/gatekeeper.exynos9820.so
 
+# GRALLOC
+vendor/lib/hw/gralloc.exynos9820.so
+vendor/lib64/hw/gralloc.exynos9820.so
+
 # GRAPICS_MALI
 vendor/bin/bcc_mali
 vendor/etc/mali_formatter.bin
