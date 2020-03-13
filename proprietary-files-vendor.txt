@@ -68,6 +68,10 @@ vendor/lib64/libion_exynos.so
 -vendor/lib64/libskeymaster4device.so
 vendor/lib64/libkeymaster_helper_vendor.so
 
+### POWER
+vendor/lib/hw/power.exynos9820.so
+vendor/lib64/hw/power.exynos9820.so
+
 # TEEGRIS
 vendor/bin/tzdaemon
 vendor/bin/tzts_daemon
