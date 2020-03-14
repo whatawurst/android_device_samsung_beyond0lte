@@ -43,6 +43,18 @@ vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
+### BLUETOOTH
+vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
+vendor/lib64/libbt-vendor.so
+vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
+
+### BLUETOOTH_FIRMWARE
+vendor/firmware/bcm4375B0_murata.hcd
+vendor/firmware/bcm4375B0_semco.hcd
+vendor/firmware/bcm4375B1_murata.hcd
+vendor/firmware/bcm4375B1_semco.hcd
+vendor/firmware/bcm4375B1_semco_sem.hcd
+
 # GATEKEEPER
 vendor/lib/hw/gatekeeper.exynos9820.so
 vendor/lib64/hw/gatekeeper.exynos9820.so
