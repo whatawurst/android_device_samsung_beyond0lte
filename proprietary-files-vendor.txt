@@ -281,6 +281,7 @@ vendor/lib64/hw/thermal.exynos9820.so
 # WIFI
 vendor/bin/hw/macloader
 vendor/etc/init/wifi_brcm.rc
+vendor/etc/init/wifi.rc
 vendor/etc/wifi/bcmdhd_clm.blob
 vendor/etc/wifi/bcmdhd_mfg.bin_b1
 vendor/etc/wifi/bcmdhd_mon.bin_b1
