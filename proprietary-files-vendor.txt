@@ -20,6 +20,7 @@ vendor/etc/playback_record_audio_policy_configuration.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
+vendor/lib/hw/audio.primary.exynos9820.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/soundfx/libaudioeffectoffload.so
 vendor/lib/soundfx/libaudiosaplus_sec.so
@@ -233,6 +234,10 @@ vendor/lib64/hw/sensors.exynos9820.so
 vendor/lib64/sensors.bio.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.sensorhub.so
+
+### THERMAL
+vendor/lib/hw/thermal.exynos9820.so
+vendor/lib64/hw/thermal.exynos9820.so
 
 # WIFI
 vendor/bin/hw/macloader
