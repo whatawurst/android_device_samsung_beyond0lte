@@ -200,6 +200,9 @@ vendor/lib64/libnpuc_template.so.0.52
 vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so
 vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
 
+### SAMSUNG_SLSI_EDEN_FIRMWARE
+vendor/firmware/NPU.bin
+
 ### SAMSUNG_SLSI_EPIC
 vendor/bin/hw/vendor.samsung_slsi.hardware.epic@1.0-service
 vendor/etc/init/vendor.samsung_slsi.hardware.epic@1.0-service.rc
