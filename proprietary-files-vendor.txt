@@ -51,6 +51,22 @@ vendor/lib64/hw/gatekeeper.exynos9820.so
 vendor/lib/hw/gralloc.exynos9820.so
 vendor/lib64/hw/gralloc.exynos9820.so
 
+### GPS/GNSS
+vendor/bin/hw/gpsd
+vendor/bin/hw/lhd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.xml
+vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
+vendor/etc/sensor/lhd.conf
+vendor/lib/libwrappergps.so
+vendor/lib64/hw/gps.default.so
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+
 # GRAPICS_MALI
 vendor/bin/bcc_mali
 vendor/etc/mali_formatter.bin
@@ -72,6 +88,14 @@ vendor/lib64/libkeymaster_helper_vendor.so
 ### POWER
 vendor/lib/hw/power.exynos9820.so
 vendor/lib64/hw/power.exynos9820.so
+
+### SECNATIVE
+vendor/lib/libsecnativefeature.so
+vendor/lib64/libsecnativefeature.so
+
+### SECRIL
+vendor/lib/libvndsecril-client.so
+vendor/lib64/libvndsecril-client.so
 
 # TEEGRIS
 vendor/bin/tzdaemon
