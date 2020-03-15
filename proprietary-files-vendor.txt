@@ -4,7 +4,6 @@ vendor/etc/audio_board_info.xml
 vendor/etc/audio_effects.xml
 vendor/etc/audio_effects_common.conf
 vendor/etc/audio_effects_sec.xml
-vendor/etc/audio_policy_configuration.xml:vendor/etc/audio/audio_policy_configuration.xml
 vendor/etc/audio_policy_configuration.xml
 vendor/etc/audio_policy_configuration_sec.xml
 vendor/etc/audio_policy_volumes.xml
@@ -22,6 +21,28 @@ vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/lib/hw/audio.primary.exynos9820.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
+# FIXME: Should be built from source
+vendor/lib/vndk/libtinyalsa.so
+vendor/lib/vndk/libaudioroute.so
+# FIXME END
+vendor/lib/libSamsungPostProcessConvertor.so
+vendor/lib/lib_SamsungRec_07001.so
+vendor/lib/lib_SoundAlive_3DPosition_ver202.so
+vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
+vendor/lib/lib_SoundAlive_SRC384_ver320.so
+vendor/lib/lib_SoundAlive_play_plus_ver400.so
+vendor/lib/lib_SoundBooster_ver1000.so
+vendor/lib/lib_soundaliveresampler.so
+vendor/lib/libaboxpcmdump.so
+vendor/lib/libalsautils_sec.so
+vendor/lib/libaudio-ril.so
+vendor/lib/libaudiodebugfs.so
+vendor/lib/libaudioproxy.so
+vendor/lib/libcodecdspdump.so
+vendor/lib/libdatamod.so
+vendor/lib/libfloatingfeature.so
+vendor/lib/librecordalive.so
+vendor/lib/libsecaudioinfo.so
 vendor/lib/soundfx/libaudioeffectoffload.so
 vendor/lib/soundfx/libaudiosaplus_sec.so
 vendor/lib/soundfx/libgearvr.so
@@ -31,6 +52,7 @@ vendor/lib/soundfx/libplaybackrecorder.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
+vendor/lib64/libfloatingfeature.so
 vendor/lib64/libsecaudiocoreutils.so
 vendor/lib64/libsecaudioinfo.so
 vendor/lib64/soundfx/libaudioeffectoffload.so
