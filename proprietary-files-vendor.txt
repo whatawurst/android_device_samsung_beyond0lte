@@ -129,6 +129,16 @@ vendor/lib64/libion_exynos.so
 -vendor/lib64/libskeymaster4device.so
 vendor/lib64/libkeymaster_helper_vendor.so
 
+### OMX_FIRMWARE
+vendor/firmware/fimc_is_fw_mcu.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+vendor/firmware/setfile_2l4.bin
+vendor/firmware/setfile_3j1.bin
+vendor/firmware/setfile_3m3.bin
+vendor/firmware/setfile_3p9.bin
+vendor/firmware/setfile_4ha.bin
+
 ### POWER
 vendor/lib/hw/power.exynos9820.so
 vendor/lib64/hw/power.exynos9820.so
