@@ -322,9 +322,13 @@ vendor/lib64/sensors.bio.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.sensorhub.so
 
+### SOUNDTRIGGER_FIRMWARE
+vendor/firmware/vts.bin
+
 ### THERMAL
 vendor/lib/hw/thermal.exynos9820.so
 vendor/lib64/hw/thermal.exynos9820.so
+
 
 # WIFI
 vendor/bin/hw/macloader
