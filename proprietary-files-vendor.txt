@@ -307,6 +307,9 @@ vendor/lib64/libhdr10p_m2l.exynos9820.so
 vendor/lib64/hw/memtrack.exynos9820.so
 vendor/lib/hw/memtrack.exynos9820.so
 
+### SAMSUNG_SLSI_FIRMWARE
+vendor/firmware/epx.bin
+
 ### SENSORS
 vendor/etc/sensors/hals.conf
 vendor/lib/hw/sensors.exynos9820.so
