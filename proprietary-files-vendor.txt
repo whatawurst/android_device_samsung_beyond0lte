@@ -84,6 +84,9 @@ vendor/firmware/bcm4375B1_murata.hcd
 vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
+### CHARGER_FIRMWARE
+vendor/firmware/mfc_fw.bin
+
 # GATEKEEPER
 vendor/lib/hw/gatekeeper.exynos9820.so
 vendor/lib64/hw/gatekeeper.exynos9820.so
