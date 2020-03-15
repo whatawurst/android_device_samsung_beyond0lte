@@ -129,6 +129,9 @@ vendor/lib64/libion_exynos.so
 -vendor/lib64/libskeymaster4device.so
 vendor/lib64/libkeymaster_helper_vendor.so
 
+### NFC_FIRMWARE
+vendor/firmware/nfc/sec_s3nrn82_firmware.bin
+
 ### OMX_FIRMWARE
 vendor/firmware/fimc_is_fw_mcu.bin
 vendor/firmware/fimc_is_lib.bin
