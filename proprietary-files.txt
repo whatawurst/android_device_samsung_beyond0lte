@@ -1,3 +1,6 @@
+### CAMERA
+system/lib/libcamerahardwareinterface.so
+
 ### OMX
 system/etc/somxreg.conf
 # FIXME: Check if these can be built from source
