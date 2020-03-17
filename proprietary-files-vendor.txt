@@ -295,6 +295,14 @@ vendor/firmware/setfile_4ha.bin
 vendor/lib/hw/power.exynos9820.so
 vendor/lib64/hw/power.exynos9820.so
 
+# RADIO
+vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so
+vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so
+vendor/lib/vendor.samsung.hardware.radio@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio@2.0.so
+
 ### SECNATIVE
 vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
