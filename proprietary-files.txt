@@ -1,3 +1,46 @@
+### OMX
+system/etc/somxreg.conf
+# FIXME: Check if these can be built from source
+system/lib/libsomx263dsw.so
+system/lib/libsomx264dsw.so
+system/lib/libsomxaacd.so
+system/lib/libsomxadpcmd.so
+system/lib/libsomxamrd.so
+system/lib/libsomxaped.so
+system/lib/libsomxcmn.so
+system/lib/libsomxcore.so
+system/lib/libsomxflacd.so
+system/lib/libsomxhevcdsw.so
+system/lib/libsomxmp3d.so
+system/lib/libsomxmp4vdsw.so
+system/lib/libsomxmp43d.so
+system/lib/libsomxnaace.so
+system/lib/libsomxvc1dsw.so
+system/lib/libsomxvp8d.so
+system/lib/libsomxwmad.so
+system/lib/libsomxwmv7d.so
+system/lib/libsomxwmv8d.so
+system/lib64/libsomx263dsw.so
+system/lib64/libsomx264dsw.so
+system/lib64/libsomxaacd.so
+system/lib64/libsomxadpcmd.so
+system/lib64/libsomxamrd.so
+system/lib64/libsomxaped.so
+system/lib64/libsomxcmn.so
+system/lib64/libsomxcore.so
+system/lib64/libsomxflacd.so
+system/lib64/libsomxhevcdsw.so
+system/lib64/libsomxmp3d.so
+system/lib64/libsomxmp4vdsw.so
+system/lib64/libsomxmp43d.so
+system/lib64/libsomxnaace.so
+system/lib64/libsomxvc1dsw.so
+system/lib64/libsomxvp8d.so
+system/lib64/libsomxwmad.so
+system/lib64/libsomxwmv7d.so
+system/lib64/libsomxwmv8d.so
+# FIXME END
+
 ### SAMSUNG_SLSI_CONFIGSTORE
 system/lib/vendor.samsung_slsi.hardware.configstore-utils.so
 system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so
