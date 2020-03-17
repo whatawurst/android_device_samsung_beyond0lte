@@ -300,7 +300,11 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 ### SECRIL
+vendor/lib/libsec-ril.so
+vendor/lib/libsec-ril-dsds.so
 vendor/lib/libvndsecril-client.so
+vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril-dsds.so
 vendor/lib64/libvndsecril-client.so
 
 # TEEGRIS
