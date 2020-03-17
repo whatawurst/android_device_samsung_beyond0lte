@@ -203,6 +203,84 @@ vendor/lib64/libkeymaster_helper_vendor.so
 ### NFC_FIRMWARE
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 
+# OMX
+vendor/etc/somxreg.conf
+vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
+vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
+vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
+vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
+vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
+vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so
+vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so
+vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
+# FIXME: Check if any of these can be built from source
+vendor/lib/vndk/libstagefright_foundation.so
+vendor/lib/vndk/libstagefright_omx_utils.so
+vendor/lib/libExynosOMX_Core.so
+vendor/lib/libExynosOMX_Resourcemanager.so
+vendor/lib/libsomx263dsw.so
+vendor/lib/libsomx264dsw.so
+vendor/lib/libsomxaacd.so
+vendor/lib/libsomxadpcmd.so
+vendor/lib/libsomxamrd.so
+vendor/lib/libsomxaped.so
+vendor/lib/libsomxcmn.so
+vendor/lib/libsomxcore_vendor.so
+vendor/lib/libsomxflacd.so
+vendor/lib/libsomxhevcdsw.so
+vendor/lib/libsomxmp3d.so
+vendor/lib/libsomxmp4vdsw.so
+vendor/lib/libsomxmp43d.so
+vendor/lib/libsomxnaace.so
+vendor/lib/libsomxvc1dsw.so
+vendor/lib/libsomxvp8d.so
+vendor/lib/libsomxwmad.so
+vendor/lib/libsomxwmv7d.so
+vendor/lib/libsomxwmv8d.so
+vendor/lib/libstagefright_omx_vendor.so
+# FIXME END
+vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so
+# FIXME: Check if any of these can be built from source
+vendor/lib64/libExynosOMX_Core.so
+vendor/lib64/libExynosOMX_Resourcemanager.so
+vendor/lib64/libsomx263dsw.so
+vendor/lib64/libsomx264dsw.so
+vendor/lib64/libsomxaacd.so
+vendor/lib64/libsomxadpcmd.so
+vendor/lib64/libsomxamrd.so
+vendor/lib64/libsomxaped.so
+vendor/lib64/libsomxcmn.so
+vendor/lib64/libsomxcore_vendor.so
+vendor/lib64/libsomxflacd.so
+vendor/lib64/libsomxhevcdsw.so
+vendor/lib64/libsomxmp3d.so
+vendor/lib64/libsomxmp4vdsw.so
+vendor/lib64/libsomxmp43d.so
+vendor/lib64/libsomxnaace.so
+vendor/lib64/libsomxvc1dsw.so
+vendor/lib64/libsomxvp8d.so
+vendor/lib64/libsomxwmad.so
+vendor/lib64/libsomxwmv7d.so
+vendor/lib64/libsomxwmv8d.so
+# FIXME END
+
 ### OMX_FIRMWARE
 vendor/firmware/fimc_is_fw_mcu.bin
 vendor/firmware/fimc_is_lib.bin
