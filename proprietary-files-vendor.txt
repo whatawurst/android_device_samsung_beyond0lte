@@ -109,6 +109,11 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 ### CHARGER_FIRMWARE
 vendor/firmware/mfc_fw.bin
 
+# CODECS
+vendor/etc/media_codecs.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_profiles_V1_0.xml
+
 # GATEKEEPER
 vendor/lib/hw/gatekeeper.exynos9820.so
 vendor/lib64/hw/gatekeeper.exynos9820.so
