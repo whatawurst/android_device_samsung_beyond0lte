@@ -328,10 +328,47 @@ vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
 
-# RADIO
+### RIL
+vendor/bin/hw/rild
+vendor/bin/cbd
+vendor/etc/init/init.baseband.rc
+vendor/etc/init/init.vendor.rilchip.rc
+vendor/etc/init/init.vendor.rilcommon.rc
+vendor/etc/plmn_delta.bin
+vendor/etc/plmn_delta_attaio.bin
+vendor/etc/plmn_delta_hktw.bin
+vendor/etc/plmn_delta_usacdma.bin
+vendor/etc/plmn_delta_usagsm.bin
+vendor/etc/plmn_se13.bin
+vendor/etc/ril_config.sh
+vendor/lib/libaudio-ril.so
+vendor/lib/libmdf.so
+vendor/lib/libpa.so
+vendor/lib/libreference-ril.so
+vendor/lib/libril.so
+vendor/lib/librilutils.so
+vendor/lib/libsec-ril.so
+vendor/lib/libsec-ril-dsds.so
+vendor/lib/libsec_semRil.so
+vendor/lib/libsecure_storage.so
+vendor/lib/libvndsecril-client.so
+vendor/lib/vendor.samsung.hardware.security.proca@2.0.so
+vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so
 vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so
 vendor/lib/vendor.samsung.hardware.radio@2.0.so
+vendor/lib64/libmdf.so
+vendor/lib64/libpa.so
+vendor/lib64/libreference-ril.so
+vendor/lib64/libril.so
+vendor/lib64/librilutils.so
+vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril-dsds.so
+vendor/lib64/libsec_semRil.so
+vendor/lib64/libsecure_storage.so
+vendor/lib64/libvndsecril-client.so
+vendor/lib64/vendor.samsung.hardware.security.proca@2.0.so
+vendor/lib64/vendor.samsung.hardware.security.securestorage@3.0.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.0.so
@@ -339,14 +376,6 @@ vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 ### SECNATIVE
 vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
-
-### SECRIL
-vendor/lib/libsec-ril.so
-vendor/lib/libsec-ril-dsds.so
-vendor/lib/libvndsecril-client.so
-vendor/lib64/libsec-ril.so
-vendor/lib64/libsec-ril-dsds.so
-vendor/lib64/libvndsecril-client.so
 
 # TEEGRIS
 vendor/bin/tzdaemon
