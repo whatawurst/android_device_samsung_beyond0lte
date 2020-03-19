@@ -1,4 +1,5 @@
 # AUDIO
+vendor/etc/SoundBoosterParam.txt
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/audio_board_info.xml
 vendor/etc/audio_effects.xml
