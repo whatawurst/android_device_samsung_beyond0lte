@@ -462,6 +462,37 @@ vendor/lib64/libhifistill.so
 vendor/lib64/libiva_android_hal.so
 vendor/lib64/libopenvx.so
 vendor/lib64/libvxu.so
+vendor/openvx/cost/cost_c_iva.dat
+vendor/openvx/cost/cost_c_neon.dat
+vendor/openvx/cost/cost_c_score.dat
+vendor/openvx/cost/cost_c_std.dat
+vendor/openvx/cost/cost_iva.dat
+vendor/openvx/cost/cost_score.dat
+vendor/openvx/xml/_hifi_still_schedule.xml
+vendor/openvx/xml/enf.xml
+vendor/openvx/xml/hifi_allstages_no_file_writes.xml
+vendor/openvx/xml/hifi_allstages_no_file_writes_10bit.xml
+vendor/openvx/xml/hifi_allstages_no_file_writes_postSCL2UpscaledMargin.xml
+vendor/openvx/xml/lls_blend.xml
+vendor/openvx/xml/lls_blend30_4.xml
+vendor/openvx/xml/lls_blend30_4_motmod.xml
+vendor/openvx/xml/lls_blend_30.xml
+vendor/openvx/xml/lls_blend_30_motmod.xml
+vendor/openvx/xml/lls_blend_4.xml
+vendor/openvx/xml/lls_blend_4_motmod.xml
+vendor/openvx/xml/lls_blend_motmod.xml
+vendor/openvx/xml/lls_enf.xml
+vendor/openvx/xml/lls_enf_luma.xml
+vendor/openvx/xml/lls_preproc.xml
+vendor/openvx/xml/lls_scaler.xml
+vendor/openvx/xml/lls_warp.xml
+vendor/openvx/xml/match.xml
+vendor/openvx/xml/registration.xml
+vendor/openvx/xml/scaler.xml
+vendor/openvx/xml/scaler_intv.xml
+vendor/openvx/xml/warp.xml
+vendor/openvx/xml/warp20.xml
+vendor/openvx/xml/warp30.xml
 
 ### SAMSUNG_SLSI_IVA_FIRMWARE
 vendor/firmware/iva30_rt-makalu.bin
