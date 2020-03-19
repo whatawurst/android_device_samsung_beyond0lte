@@ -44,6 +44,3 @@ vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:recovery/root/vendor/tee/
 
 vendor/tee/ffffffff-0000-0000-0000-000000000030:recovery/root/vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100:recovery/root/vendor/tee/tui/resolution_common/ID00000100
-
-# Trusted storage driver from startup.tzar
-#recovery/root/vendor/tee/driver/00000005-0005-0005-0505-050505050505|33af5a83014af535a7e89075e4dc439fe991d161
