@@ -125,7 +125,6 @@ vendor/lib64/vendor.samsung.hardware.camera.device@4.0.so
 vendor/lib64/vendor.samsung.hardware.camera.provider@3.0.so
 
 # CAMERA_DEPENDENCIES
-vendor/lib/libIDDQD_interface.so
 vendor/lib/libSEF.quram.so
 vendor/lib/libcsc.so
 vendor/lib/libexynoscamera3.so
@@ -137,7 +136,6 @@ vendor/lib/libstagefrighthw.so
 vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
 vendor/lib/libvkmanager_vendor.so
-vendor/lib64/libIDDQD_interface.so
 vendor/lib64/libSEF.quram.so
 vendor/lib64/libcsc.so
 vendor/lib64/libexynoscamera3.so
@@ -149,6 +147,16 @@ vendor/lib64/libstagefrighthw.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
 vendor/lib64/libvkmanager_vendor.so
+
+### CAMERA_IDDQD_PLUGIN
+vendor/lib/libIDDQD_core.so
+vendor/lib/libIDDQD_interface.so
+vendor/lib/libLocalTM_preview_core.so
+vendor/lib/libOpenCv.camera.samsung.so
+vendor/lib64/libIDDQD_core.so
+vendor/lib64/libIDDQD_interface.so
+vendor/lib64/libLocalTM_preview_core.so
+vendor/lib64/libOpenCv.camera.samsung.so
 
 ### CAMERA_FIRMWARE
 vendor/firmware/dual_cal_front_subfront.bin
