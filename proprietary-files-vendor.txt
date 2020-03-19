@@ -53,6 +53,10 @@ vendor/lib/soundfx/libplaybackrecorder.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
+vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
+vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
+vendor/lib64/lib_SoundAlive_play_plus_ver400.so
+vendor/lib64/lib_SoundBooster_ver1000.so
 vendor/lib64/libfloatingfeature.so
 vendor/lib64/libsecaudiocoreutils.so
 vendor/lib64/libsecaudioinfo.so
