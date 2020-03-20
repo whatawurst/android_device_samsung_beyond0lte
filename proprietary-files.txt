@@ -1,6 +1,9 @@
 ### CAMERA
 system/lib/libcamerahardwareinterface.so
 
+### GPS
+system/system/etc/init/init.gpscommon.rc
+
 ### OMX
 system/etc/somxreg.conf
 # FIXME: Check if these can be built from source
