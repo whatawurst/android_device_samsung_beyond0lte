@@ -46,10 +46,8 @@ system/lib64/libsomxwmv8d.so
 
 ### RIL
 init.rilmptcp.rc:system/etc/init/init.rilmptcp.rc
-system/bin/at_distributor
 system/bin/connfwexe
 system/bin/ddexe
-system/bin/diagexe
 system/bin/eris
 system/bin/ikev2-client
 system/bin/redsocks
