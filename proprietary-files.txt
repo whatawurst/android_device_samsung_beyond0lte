@@ -2,7 +2,7 @@
 system/lib/libcamerahardwareinterface.so
 
 ### GPS
-system/system/etc/init/init.gpscommon.rc
+system/etc/init/init.gpscommon.rc
 
 ### OMX
 system/etc/somxreg.conf
