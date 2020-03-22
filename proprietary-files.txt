@@ -1,15 +1,5 @@
 ### CAMERA
-system/lib/libcamera_client.so
 system/lib/libcamerahardwareinterface.so
-system/lib/libcameraservice.so
-system/lib/libedmnativehelper.so
-system/lib/vendor.samsung.hardware.biometrics.face@1.0.so
-system/lib/vendor.samsung.hardware.camera.device@1.0.so
-system/lib/vendor.samsung.hardware.camera.device@4.0.so
-system/lib/vendor.samsung.hardware.camera.provider@3.0.so
-system/lib64/libcamera_client.so
-system/lib64/libedmnativehelper.so
-system/lib64/vendor.samsung.hardware.biometrics.face@1.0.so
 
 ### GPS
 system/etc/init/init.gpscommon.rc
