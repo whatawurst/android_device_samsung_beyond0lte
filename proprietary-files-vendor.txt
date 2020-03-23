@@ -5,10 +5,6 @@ vendor/etc/audio_board_info.xml
 vendor/etc/audio_effects.xml
 vendor/etc/audio_effects_common.conf
 vendor/etc/audio_effects_sec.xml
-vendor/etc/audio_policy_configuration.xml
-vendor/etc/audio_policy_configuration_sec.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/audio_policy_volumes_sec.xml
 vendor/etc/default_volume_tables.xml
 vendor/etc/floating_feature.xml
 vendor/etc/hearing_aid_audio_policy_configuration.xml
