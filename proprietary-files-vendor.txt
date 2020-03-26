@@ -340,11 +340,6 @@ vendor/firmware/setfile_4ha.bin
 vendor/lib/hw/power.exynos9820.so
 vendor/lib64/hw/power.exynos9820.so
 
-### POWER_MISC
-vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
-vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
-vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
-
 ### RENDERSCRIPT
 vendor/lib/libRSDriverArm.so
 vendor/lib64/libRSDriverArm.so
