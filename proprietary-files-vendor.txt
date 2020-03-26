@@ -111,9 +111,7 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
 ### BLUETOOTH
-vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
 vendor/lib64/libbt-vendor.so
-vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 
 ### BLUETOOTH_FIRMWARE
 vendor/firmware/bcm4375B0_murata.hcd
@@ -358,10 +356,8 @@ vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/plmn_delta.bin
 vendor/etc/plmn_delta_attaio.bin
 vendor/etc/plmn_delta_hktw.bin
-vendor/etc/plmn_delta_usacdma.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
-vendor/etc/ril_config.sh
 vendor/lib/libaudio-ril.so
 vendor/lib/libmdf.so
 vendor/lib/libpa.so
@@ -478,19 +474,16 @@ vendor/lib64/libeden_ud_gpu.so
 vendor/lib64/libeden_ud_npu.so
 vendor/lib64/libeden_wrapper.so
 vendor/lib64/libeden_xtool.so
-vendor/lib64/libnpuc_api.so.0.52
-vendor/lib64/libnpuc_backend.so.0.52
-vendor/lib64/libnpuc_cmdq.so.0.52
-vendor/lib64/libnpuc_common.so.0.52
-vendor/lib64/libnpuc_controller.so.0.52
-vendor/lib64/libnpuc_frontend.so.0.52
-vendor/lib64/libnpuc_graph.so.0.52
-vendor/lib64/libnpuc_template.so.0.52
+vendor/lib64/libnpuc_api.so
+vendor/lib64/libnpuc_backend.so
+vendor/lib64/libnpuc_cmdq.so
+vendor/lib64/libnpuc_common.so
+vendor/lib64/libnpuc_controller.so
+vendor/lib64/libnpuc_frontend.so
+vendor/lib64/libnpuc_graph.so
+vendor/lib64/libnpuc_template.so
 vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so
 vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
-
-### SAMSUNG_SLSI_EDEN_FIRMWARE
-vendor/firmware/NPU.bin
 
 ### SAMSUNG_SLSI_EPIC
 vendor/bin/hw/vendor.samsung_slsi.hardware.epic@1.0-service
