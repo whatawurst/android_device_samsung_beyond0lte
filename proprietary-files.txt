@@ -5,6 +5,7 @@ system/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 ### CAMERA
 system/lib/libcamerahardwareinterface.so
+system/media/fruc_kernels.exynos9820.bin
 
 ### GPS
 system/etc/init/init.gpscommon.rc
