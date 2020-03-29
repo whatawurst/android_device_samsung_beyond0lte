@@ -352,6 +352,7 @@ vendor/lib64/libRSDriverArm.so
 ### RIL
 vendor/bin/hw/rild
 vendor/bin/cbd
+vendor/bin/secril_config_svc
 vendor/etc/init/init.baseband.rc
 vendor/etc/init/init.vendor.rilchip.rc
 vendor/etc/init/init.vendor.rilcommon.rc
