@@ -19,6 +19,7 @@ vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/lib/hw/audio.primary.exynos9820.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
+vendor/lib/hw/sound_trigger.primary.exynos9820.so
 # FIXME: Should be built from source
 vendor/lib/vndk/libtinyalsa.so
 vendor/lib/vndk/libaudioroute.so
@@ -34,6 +35,7 @@ vendor/lib/lib_soundaliveresampler.so
 vendor/lib/libaboxpcmdump.so
 vendor/lib/libalsautils_sec.so
 vendor/lib/libaudio-ril.so
+vendor/lib/libaudio_soundtrigger.so
 vendor/lib/libaudiodebugfs.so
 vendor/lib/libaudioproxy.so
 vendor/lib/libcodecdspdump.so
