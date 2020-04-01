@@ -141,3 +141,6 @@ system/lib64/vendor.samsung_slsi.hardware.iva@1.0.so
 ### SAMSUNG_SLSI_MULTI_FRAME_PROCESSING
 system/lib/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
 system/lib64/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
+
+### WIDEVINE
+system/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
