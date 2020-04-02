@@ -250,8 +250,13 @@ vendor/lib64/libion_exynos.so
 -vendor/lib64/libskeymaster4device.so
 vendor/lib64/libkeymaster_helper_vendor.so
 
-### NFC_FIRMWARE
+### NFC
+vendor/bin/hw/sec.android.hardware.nfc@1.2-service
+vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
+vendor/etc/libnfc-sec-vendor.conf
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
+vendor/lib64/nfc_nci_sec.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # OMX
 vendor/etc/somxreg.conf
