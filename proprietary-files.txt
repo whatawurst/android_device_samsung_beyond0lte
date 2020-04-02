@@ -33,6 +33,10 @@ system/media/water_protection_usb.spi
 ### GPS
 system/etc/init/init.gpscommon.rc
 
+### NFC
+system/etc/libnfc-nci.conf
+system/lib64/vendor.samsung.hardware.nfc@2.0.so
+
 ### OMX
 system/etc/somxreg.conf
 # FIXME: Check if these can be built from source
