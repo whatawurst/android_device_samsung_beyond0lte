@@ -1,12 +1,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+# Product API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/beyond0lte/device.mk)
-
-# Product API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 ### BOOTANIMATION
 # vendor/lineage/config/common_full_phone.mk
@@ -21,13 +20,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_beyond0lte
 PRODUCT_DEVICE := beyond0lte
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G970F
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_PDA_VERSION := G970FXXU4CTC9
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=beyond0lte \
+    PRODUCT_NAME=beyond0ltexx \
+    PRODUCT_DEVICE=beyond0 \
     PRIVATE_BUILD_DESC="beyond0ltexx-user 10 QP1A.190711.020 $(PRODUCT_PDA_VERSION) release-keys"
 
 BUILD_FINGERPRINT := samsung/beyond0ltexx/beyond0:10/QP1A.190711.020/$(PRODUCT_PDA_VERSION):user/release-keys
