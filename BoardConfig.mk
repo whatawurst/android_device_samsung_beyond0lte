@@ -21,6 +21,8 @@ DEVICE_PATH := device/samsung/beyond0lte
 
 PRODUCT_PLATFORM := exynos9820
 
+TARGET_OTA_ASSERT_DEVICE := beyond0,beyond0lte,beyond0ltexx
+
 ### KERNEL
 TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
 
