@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=beyond0lte
+DEVICE=beyond1lte
 VENDOR=samsung
 
 INITIAL_COPYRIGHT_YEAR=2020
