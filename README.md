@@ -3,7 +3,7 @@
 Description
 -----------
 
-This repository is to build LineageOS for the S10e (SM-G970F)
+This repository is to build LineageOS for the S10e (SM-G975F)
 
 How to build LineageOS
 ----------------------
@@ -36,13 +36,13 @@ How to build LineageOS
 
 * Extract vendor blobs
 
-        cd device/samsung/beyond0lte
+        cd device/samsung/beyond2lte
         ./extract-files.sh
 
 * Setup the environment
 
         source build/envsetup.sh
-        lunch lineage_beyond0lte-userdebug
+        lunch lineage_beyond2lte-userdebug
 
 * Build LineageOS
 
