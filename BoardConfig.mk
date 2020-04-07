@@ -15,16 +15,16 @@
 
 ### INHERIT FROM YOSHIRO
 include device/samsung/exynos9820-common/BoardConfigPlatform.mk
-include vendor/samsung/beyond0lte/BoardConfigVendor.mk
+include vendor/samsung/beyond2lte/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/beyond0lte
+DEVICE_PATH := device/samsung/beyond2lte
 
 PRODUCT_PLATFORM := exynos9820
 
-TARGET_OTA_ASSERT_DEVICE := beyond0,beyond0lte,beyond0ltexx
+TARGET_OTA_ASSERT_DEVICE := beyond2,beyond2lte,beyond2ltexx
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
+TARGET_KERNEL_CONFIG := exynos9820-beyond2lte_defconfig
 
 ### PARTITIONS
 # /proc/partitions shows the size in 1024-byte blocks
