@@ -5,7 +5,8 @@ system/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 ### CAMERA
 system/lib/libcamerahardwareinterface.so
-system/media/fruc_kernels.exynos9820.bin
+# Copyied by vendor_init which needs read access
+system/media/fruc_kernels.exynos9820.bin:vendor/firmware/fruc_kernels.exynos9820.bin
 
 ### OFFLINE_CHARGER
 system/bin/lpm
