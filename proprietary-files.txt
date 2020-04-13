@@ -24,6 +24,7 @@ system/media/charging_New_Fast.spi
 system/media/charging_New_Normal.spi
 system/media/dock_error_usb.spi
 system/media/incomplete_connect.spi
+system/media/lcd_density.txt
 system/media/percentage.spi
 system/media/safety_timer_usb.spi
 system/media/shutdown.qmg
