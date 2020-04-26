@@ -84,15 +84,8 @@ system/lib64/libsomxwmv8d.so
 
 ### RIL
 init.rilmptcp.rc:system/etc/init/init.rilmptcp.rc
-system/bin/connfwexe
-system/bin/ddexe
 system/bin/eris
 system/bin/ikev2-client
-system/bin/redsocks
-system/bin/smdexe
-system/etc/init/init.rilcarrier.rc
-system/etc/init/init.rilchip.rc
-system/etc/init/init.rilcommon.rc
 system/etc/init/init.rilepdg.rc
 system/etc/eris.conf
 system/etc/restart_radio_process.sh
@@ -101,13 +94,11 @@ system/lib/libfactoryutil.so
 system/lib/libfloatingfeature.so
 system/lib/libmdf.so
 system/lib/libomission_avoidance.so
-system/lib/libpa.so
 system/lib/libpacm_client.so
 system/lib/libsecnativefeature.so
 system/lib/libsecril-client.so
 system/lib/libsecure_storage.so
 system/lib/libsec_semRil.so
-system/lib/vendor.samsung.hardware.security.proca@2.0.so
 system/lib/vendor.samsung.hardware.security.securestorage@3.0.so
 system/lib64/libatparser.so
 system/lib64/libfactoryutil.so
@@ -117,13 +108,11 @@ system/lib64/liberis_strongswan.so
 system/lib64/libfloatingfeature.so
 system/lib64/libmdf.so
 system/lib64/libomission_avoidance.so
-system/lib64/libpa.so
 system/lib64/libpacm_client.so
 system/lib64/libsecnativefeature.so
 system/lib64/libsecril-client.so
 system/lib64/libsecure_storage.so
 system/lib64/libsec_semRil.so
-system/lib64/vendor.samsung.hardware.security.proca@2.0.so
 system/lib64/vendor.samsung.hardware.security.securestorage@3.0.so
 
 ### SAMSUNG_SLSI_CONFIGSTORE
