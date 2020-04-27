@@ -634,5 +634,3 @@ vendor/etc/wifi/nvram.txt_ES00_semco_b0
 vendor/etc/wifi/nvram.txt_ES01_semco_b0
 vendor/etc/wifi/nvram.txt_ES02_semco_b0
 vendor/etc/wifi/nvram.txt_ES03_semco_b0
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
