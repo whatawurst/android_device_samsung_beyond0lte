@@ -8,30 +8,6 @@ system/lib/libcamerahardwareinterface.so
 # Copyied by vendor_init which needs read access
 system/media/fruc_kernels.exynos9820.bin:vendor/firmware/fruc_kernels.exynos9820.bin
 
-### OFFLINE_CHARGER
-system/bin/lpm
-system/lib64/libmaet.so
-system/lib64/libsuspend.so
-system/lib64/libsxqk_skia.so
-system/media/battery_error.spi
-system/media/battery_low.spi
-system/media/battery_temperature_error.spi
-system/media/battery_temperature_limit.spi
-system/media/battery_water_usb.spi
-system/media/bootsamsung.qmg
-system/media/bootsamsungloop.qmg
-system/media/charging_New_Fast.spi
-system/media/charging_New_Normal.spi
-system/media/dock_error_usb.spi
-system/media/incomplete_connect.spi
-system/media/lcd_density.txt
-system/media/percentage.spi
-system/media/safety_timer_usb.spi
-system/media/shutdown.qmg
-system/media/slow_charging_usb.spi
-system/media/temperature_limit_usb.spi
-system/media/water_protection_usb.spi
-
 ### GPS
 system/etc/init/init.gpscommon.rc
 
