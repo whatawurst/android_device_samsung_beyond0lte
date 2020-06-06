@@ -23,7 +23,7 @@ How to build TWRP
 
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
-            <project name="whatawurst/android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" />
+            <project name="whatawurst/android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" remote="github" revision="twrp-9.0" />
         </manifest>
 
 * Sync the repo:
@@ -39,7 +39,7 @@ How to build TWRP
 
         export ALLOW_MISSING_DEPENDENCIES=true
         source build/envsetup.sh
-        lunch lineage_beyond0lte-userdebug
+        lunch omni_beyond0lte-userdebug
 
 * Build TWRP
 
