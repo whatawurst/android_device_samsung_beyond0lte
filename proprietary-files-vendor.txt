@@ -590,10 +590,6 @@ vendor/lib64/sensors.sensorhub.so
 ### SOUNDTRIGGER_FIRMWARE
 vendor/firmware/vts.bin
 
-### THERMAL
-vendor/lib/hw/thermal.exynos9820.so
-vendor/lib64/hw/thermal.exynos9820.so
-
 ### WIDEVINE
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine
 vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
