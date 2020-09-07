@@ -28,7 +28,7 @@ vendor/lib/vndk/libtinyalsa.so
 vendor/lib/vndk/libaudioroute.so
 # FIXME END
 vendor/lib/libSamsungPostProcessConvertor.so
-vendor/lib/lib_SamsungRec_07001.so
+vendor/lib/lib_SamsungRec_07010.so
 vendor/lib/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
@@ -410,7 +410,6 @@ vendor/lib64/libteecl.so
 vendor/lib64/libuuid.so
 
 # TEEGRIS_FIRMWARE
-vendor/tee/00000000-0000-0000-0000-000000000046
 vendor/tee/00000000-0000-0000-0000-00000000dead
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
@@ -432,6 +431,7 @@ vendor/tee/00000000-0000-0000-0000-64756c444152
 vendor/tee/00000000-0000-0000-0000-657365447276
 vendor/tee/00000000-0000-0000-0000-657365636f6d
 vendor/tee/00000000-0000-0000-0000-6d73745f5441
+vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/driver/00000000-0000-0000-0000-00535453540b
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476
