@@ -197,9 +197,6 @@ vendor/firmware/dual_cal_front_subfront.bin
 vendor/firmware/dual_cal_wide_swide.bin
 vendor/firmware/dual_cal_wide_tele.bin
 
-### CASS
-vendor/bin/cass
-
 ### CHARGER_FIRMWARE
 vendor/firmware/mfc_fw.bin
 
