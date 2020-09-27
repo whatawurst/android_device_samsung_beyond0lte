@@ -33,6 +33,14 @@ if [ ! -f "$HELPER" ]; then
 fi
 . "$HELPER"
 
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib*/libsec-ril.so|vendor/lib*/libsec-ril-dsds.so)
+        sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
+        ;;
+    esac
+}
+
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
 
