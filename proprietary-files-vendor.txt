@@ -488,13 +488,10 @@ vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so
 vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so
 
 ### SAMSUNG_SLSI_IVA
-vendor/bin/hw/vendor.samsung_slsi.hardware.iva@1.0-service
-vendor/etc/init/vendor.samsung_slsi.hardware.iva@1.0-service.rc
 vendor/lib/libhifistill.so
 vendor/lib/libiva_android_hal.so
 vendor/lib/libopenvx.so
 vendor/lib/libvxu.so
-vendor/lib/vendor.samsung_slsi.hardware.iva@1.0.so
 vendor/lib64/libhifistill.so
 vendor/lib64/libiva_android_hal.so
 vendor/lib64/libopenvx.so
