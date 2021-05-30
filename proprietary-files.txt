@@ -4,7 +4,6 @@ system/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 ### CAMERA
-system/lib/libcamerahardwareinterface.so
 # Copyied by vendor_init which needs read access
 system/media/fruc_kernels.exynos9820.bin:vendor/firmware/fruc_kernels.exynos9820.bin
 
@@ -13,6 +12,7 @@ system/etc/init/init.gpscommon.rc
 
 ### NFC
 system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
+system/lib64/libNfcProperties.so
 system/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 ### OMX
@@ -75,6 +75,7 @@ system/lib/libsecnativefeature.so
 system/lib/libsecril-client.so
 system/lib/libsecure_storage.so
 system/lib/libsec_semRil.so
+system/lib/libsemnativecarrierfeature.so
 system/lib/vendor.samsung.hardware.security.securestorage@3.0.so
 system/lib64/libatparser.so
 system/lib64/libfactoryutil.so
@@ -89,6 +90,7 @@ system/lib64/libsecnativefeature.so
 system/lib64/libsecril-client.so
 system/lib64/libsecure_storage.so
 system/lib64/libsec_semRil.so
+system/lib64/libsemnativecarrierfeature.so
 system/lib64/vendor.samsung.hardware.security.securestorage@3.0.so
 
 ### SAMSUNG_SLSI_CONFIGSTORE
@@ -110,4 +112,5 @@ system/lib/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
 system/lib64/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so
 
 ### WIDEVINE
-system/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
+system/lib/vendor.samsung.hardware.security.widevine.keyprov@1.0.so
+system/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so
