@@ -2,10 +2,8 @@
 vendor/lib64/hw/gatekeeper.exynos9820.so:recovery/root/vendor/lib64/hw/gatekeeper.exynos9820.so
 
 # RECOVERY_KEYMASTER
-vendor/lib64/libskeymaster4device.so:recovery/root/sbin/libskeymaster4device.so
-vendor/lib64/libkeymaster_helper_vendor.so:recovery/root/sbin/libkeymaster_helper_vendor.so
-# FIXME: Remove me with Android 10.0
-vendor/lib64/vndk/libcrypto.so:recovery/root/sbin/libcrypto.so
+vendor/lib64/libkeymaster4_1support.so:recovery/root/sbin/libkeymaster4_1support.so
+vendor/lib64/libkeymaster_helper.so:recovery/root/sbin/libkeymaster_helper.so
 
 # RECOVERY_TEEGRIS
 vendor/bin/tzdaemon:recovery/root/vendor/bin/tzdaemon
@@ -19,7 +17,7 @@ vendor/tee/00000000-0000-0000-0000-46494e474552:recovery/root/vendor/tee/0000000
 vendor/tee/00000000-0000-0000-0000-474154454b45:recovery/root/vendor/tee/00000000-0000-0000-0000-474154454b45
 
 # Kemyaster
-vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor:recovery/root/vendor/tee/00000000-0000-0000-0000-4b45594d5354_vendor
+vendor/tee/00000000-0000-0000-0000-4b45594d5354:recovery/root/vendor/tee/00000000-0000-0000-0000-4b45594d5354
 
 vendor/tee/driver/00000000-0000-0000-0000-00535453540b:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-00535453540b
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:recovery/root/vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
