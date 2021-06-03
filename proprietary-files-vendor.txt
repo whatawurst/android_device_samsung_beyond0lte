@@ -278,13 +278,9 @@ vendor/lib/libsomxflacd.so
 vendor/lib/libsomxhevcdsw.so
 vendor/lib/libsomxmp3d.so
 vendor/lib/libsomxmp4vdsw.so
-vendor/lib/libsomxmp43d.so
 vendor/lib/libsomxnaace.so
 vendor/lib/libsomxvc1dsw.so
 vendor/lib/libsomxvp8d.so
-vendor/lib/libsomxwmad.so
-vendor/lib/libsomxwmv7d.so
-vendor/lib/libsomxwmv8d.so
 vendor/lib/libstagefright_omx_vendor.so
 # FIXME END
 vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so
@@ -314,13 +310,9 @@ vendor/lib64/libsomxflacd.so
 vendor/lib64/libsomxhevcdsw.so
 vendor/lib64/libsomxmp3d.so
 vendor/lib64/libsomxmp4vdsw.so
-vendor/lib64/libsomxmp43d.so
 vendor/lib64/libsomxnaace.so
 vendor/lib64/libsomxvc1dsw.so
 vendor/lib64/libsomxvp8d.so
-vendor/lib64/libsomxwmad.so
-vendor/lib64/libsomxwmv7d.so
-vendor/lib64/libsomxwmv8d.so
 # FIXME END
 
 ### OMX_FIRMWARE
@@ -398,7 +390,6 @@ vendor/lib64/libteecl.so
 vendor/lib64/libuuid.so
 
 # TEEGRIS_FIRMWARE
-vendor/tee/00000000-0000-0000-0000-000000000046
 vendor/tee/00000000-0000-0000-0000-00000000dead
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
@@ -446,7 +437,6 @@ vendor/lib64/libgraphgen_import.so
 vendor/lib64/libgraphgen_intermediate_process.so
 vendor/lib64/libgraphgen_misc.so
 vendor/lib64/libgraphgen_network.so
-vendor/lib64/libgraphgen_partition.so
 vendor/lib64/libir.so
 vendor/lib64/libnpu_compiler.so
 vendor/lib64/libsait_npu_compiler.so

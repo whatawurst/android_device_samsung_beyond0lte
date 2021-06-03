@@ -30,13 +30,9 @@ system/lib/libsomxflacd.so
 system/lib/libsomxhevcdsw.so
 system/lib/libsomxmp3d.so
 system/lib/libsomxmp4vdsw.so
-system/lib/libsomxmp43d.so
 system/lib/libsomxnaace.so
 system/lib/libsomxvc1dsw.so
 system/lib/libsomxvp8d.so
-system/lib/libsomxwmad.so
-system/lib/libsomxwmv7d.so
-system/lib/libsomxwmv8d.so
 system/lib64/libsomx263dsw.so
 system/lib64/libsomx264dsw.so
 system/lib64/libsomxaacd.so
@@ -49,13 +45,9 @@ system/lib64/libsomxflacd.so
 system/lib64/libsomxhevcdsw.so
 system/lib64/libsomxmp3d.so
 system/lib64/libsomxmp4vdsw.so
-system/lib64/libsomxmp43d.so
 system/lib64/libsomxnaace.so
 system/lib64/libsomxvc1dsw.so
 system/lib64/libsomxvp8d.so
-system/lib64/libsomxwmad.so
-system/lib64/libsomxwmv7d.so
-system/lib64/libsomxwmv8d.so
 # FIXME END
 
 ### RIL
