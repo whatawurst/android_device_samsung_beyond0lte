@@ -582,13 +582,11 @@ vendor/firmware/epx.bin
 ### SENSORS
 vendor/etc/sensors/hals.conf
 vendor/lib/hw/sensors.exynos9820.so
-vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib/sensors.bio.so
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.sensorhub.so
 vendor/lib64/libflicker_sec.so
 vendor/lib64/hw/sensors.exynos9820.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib64/sensors.bio.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.sensorhub.so
