@@ -157,6 +157,7 @@ vendor/lib/libgiantmscl.so
 vendor/lib/libhwjpeg.so
 vendor/lib/libhwjsqz.so
 vendor/lib/libsensorlistener.so
+vendor/lib/libsensorndkbridge.so|1477729d1b3da4e4fef5a2ec88bd8579fdd1883e
 vendor/lib/libstagefrighthw.so
 vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
@@ -169,6 +170,7 @@ vendor/lib64/libgiantmscl.so
 vendor/lib64/libhwjpeg.so
 vendor/lib64/libhwjsqz.so
 vendor/lib64/libsensorlistener.so
+vendor/lib64/libsensorndkbridge.so|a1a80746c66b6cc1a23ea90dc6ef70a558452d51
 vendor/lib64/libstagefrighthw.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
