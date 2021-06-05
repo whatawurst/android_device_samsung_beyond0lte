@@ -616,7 +616,6 @@ vendor/etc/init/wifi_brcm.rc
 vendor/etc/init/wifi.rc
 vendor/etc/wifi/indoorchannel.info
 vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpp_supplicant_overlay.conf
 vendor/firmware/bcmdhd_clm.blob
 vendor/firmware/bcmdhd_mfg.bin_b1
 vendor/firmware/bcmdhd_mon.bin_b1
