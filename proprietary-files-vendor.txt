@@ -208,6 +208,7 @@ vendor/lib/hw/gralloc.exynos9820.so
 vendor/lib64/hw/gralloc.exynos9820.so
 
 ### GPS/GNSS
+vendor/bin/hw/gps.sh
 vendor/bin/hw/gpsd
 vendor/bin/hw/lhd
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
